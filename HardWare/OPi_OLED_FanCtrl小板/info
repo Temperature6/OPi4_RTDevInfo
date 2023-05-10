@@ -1,0 +1,139 @@
+{
+  "uuid": "d43875224053aa536293c4987bcc9eb1",
+  "path": "Offline/OPi_OLED_FanCtrl小板",
+  "name": "OPi_OLED_FanCtrl小板",
+  "content": "用拨码开关控制风扇，OLED接在i2c-8的小板",
+  "created_at": "2023-05-02 21:30:35",
+  "updated_at": "2023-05-06 19:27:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6bd526acdaa3cce6bd25efde45897d65",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "53e6a54faff2431db1843020414b758e": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1,
+        "87826170dab4414cb1ab141958bb18f7": 1,
+        "93b44d62463c4c9c82dd7108c8ee7d73": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "FAN",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          1,
+          "HDR-M-2.54_1X4",
+          "OLED",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x5",
+          1,
+          "HDR-M-2.54_2X5",
+          "OPI4",
+          {
+            "BOM_Supplier Part": "C178292",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "bac709540ef743c1b77cca6f50c949b7",
+            "uuid": "53e6a54faff2431db1843020414b758e"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x6",
+          1,
+          "HDR-M-2.54_1X6",
+          "OTHER",
+          {
+            "BOM_Supplier Part": "C190819",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "df3ca37cb13d499cb713e9aa6fdd0c7b",
+            "uuid": "93b44d62463c4c9c82dd7108c8ee7d73"
+          }
+        ],
+        [
+          "SP-01P",
+          1,
+          "SW-SMD_2P-L2.9-W5.4-LS8.5",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C5160893",
+            "BOM_Manufacturer": "DEALON(德艺隆)",
+            "BOM_Manufacturer Part": "SP-01P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "43e0cb77d73c44bc8cdcab9245f2d9ca",
+            "uuid": "87826170dab4414cb1ab141958bb18f7"
+          }
+        ]
+      ],
+      "updateTime": 1683036272,
+      "createTime": 1683034235,
+      "histories": [],
+      "created_at": "2023-05-02 21:30:35",
+      "updated_at": "2023-05-02 22:04:32"
+    },
+    {
+      "uuid": "273580fe8cd06c2c69c90139a9fabf2b",
+      "puuid": "d43875224053aa536293c4987bcc9eb1",
+      "title": "PCB_OPi_OLED_FanCtrl小板",
+      "filename": "PCB_OPi_OLED_FanCtrl小板.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "bac709540ef743c1b77cca6f50c949b7": 1,
+        "df3ca37cb13d499cb713e9aa6fdd0c7b": 1,
+        "43e0cb77d73c44bc8cdcab9245f2d9ca": 1
+      },
+      "BOM": [],
+      "updateTime": 1683372437,
+      "createTime": 1683036553,
+      "histories": [],
+      "created_at": "2023-05-02 22:09:13",
+      "updated_at": "2023-05-06 19:27:17"
+    }
+  ],
+  "sort": [],
+  "title": "OPi_OLED_FanCtrl小板",
+  "foldername": "OPi_OLED_FanCtrl小板",
+  "schfilename": "OPi_OLED_FanCtrl小板.json",
+  "schfilemtime": 1683036272891
+}
