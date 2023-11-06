@@ -14,7 +14,7 @@
 
 #define OLED_USE_IIC                hi2c1
 #define OLED_ADDR                   0x3C
-#define LINUX_IIC_FILE              "/dev/i2c-8"
+//#define LINUX_IIC_FILE              "/dev/i2c-8"
 #define FULL_REFRESH
 //#define MIRROR_VERTICAL
 //#define MIRROR_HORIZONTAL
